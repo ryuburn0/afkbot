@@ -11,7 +11,7 @@
 	"DO_NOT_EDIT_CONFIGS_DOWN_BELOW": "IF YOU DON'T KNOW WHAT YOU'RE DOING",
 	"actionDelays": [500, 1000, 1500, 2000, 2500, 3000],
 	"retryTimes": {
-		"ms": "15000",
-		"text": "15s"
+		"ms": "120000",
+		"text": "120s"
 	}
 }
