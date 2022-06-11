@@ -29,14 +29,11 @@ function createAFKBot() {
 		username: CONFIG.username
 	});
 
-
-	bot.on('spawn', () => {
-	  bot.chat('/login 290903')
-	});
-
 	bot.on('spawn', () => {
 		connected = true;
-		
+		if(connected) {
+			bot.chat('/login 290903')
+		}
 		async function doMoving() {
 			if(connected) {
 				const lastAction = getRandom(actions);
