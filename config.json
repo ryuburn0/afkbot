@@ -1,8 +1,8 @@
 {
-	"host": "Enter your server ip or url.",
-	"port": "Enter your server port.",
-	"username": "Enter the AFKBot's username you want. (Whatever doesn't matter)",
-	"logger": [ true
+	"host": "game4.falix.cc",
+	"port": "38159",
+	"username": "notabotforsure",
+	"logger": [ false
 		, "true : displays not necessary logs (ex: key input logs).",
 		"false : displays only necessary logs."
 	],
@@ -11,7 +11,7 @@
 	"DO_NOT_EDIT_CONFIGS_DOWN_BELOW": "IF YOU DON'T KNOW WHAT YOU'RE DOING",
 	"actionDelays": [500, 1000, 1500, 2000, 2500, 3000],
 	"retryTimes": {
-		"ms": "30000",
-		"text": "30s"
+		"ms": "15000",
+		"text": "15s"
 	}
 }
