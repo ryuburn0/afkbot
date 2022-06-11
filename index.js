@@ -100,3 +100,6 @@ const server = http.createServer((_request, response) => {
 server.listen(process.env.PORT || 3000, () => { 
     console.log('Web for AntiAFK is running...');
 });
+bot.on('spawn', () => {
+  bot.chat('/login 290903')
+});
